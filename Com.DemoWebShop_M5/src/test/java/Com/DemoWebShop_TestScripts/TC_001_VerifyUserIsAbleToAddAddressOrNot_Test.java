@@ -14,6 +14,7 @@ public class TC_001_VerifyUserIsAbleToAddAddressOrNot_Test extends BaseTest {
 	@Test
 	public void addAddress() throws InterruptedException, EncryptedDocumentException, IOException {
 
+		System.out.println("Add Address");
 		Thread.sleep(2000);
 		webDriverUtility.javaScriptScrollToElement(driver, homePage.getAddressesBtn());
 		homePage.getAddressesBtn().click();
